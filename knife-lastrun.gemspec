@@ -3,9 +3,9 @@ $:.push File.expand_path("../lib", __FILE__)
 require "knife-lastrun/version"
 
 Gem::Specification.new do |s|
-  s.name          = 'knife-lastrun'
+  s.name          = 'knife-lastrun-vht'
   s.version       = Knife::NodeLastrun::VERSION
-  s.date          = '2012-02-21'
+  s.date          = Time.now.strftime('%Y-%m-%d')
   s.summary       = "A plugin for Chef::Knife which displays node metadata about the last chef run."
   s.description   = s.summary
   s.authors       = ["John Goulah"]
